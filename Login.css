@@ -1,0 +1,128 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    background-image: url(./20230517164623_[fpdl.in]_condiments-prepare-italian-pasta_1220-429_large.jpg);
+    background-size: 1542px 750px;
+    background-repeat: no-repeat;
+}
+
+.container{
+    text-align: center;
+    background-color: rgba(196, 196, 215, 0.372);
+    /* border: 2px solid black; */
+    width: 900px;
+    height: 550px;
+    margin-left: 10px;
+    margin-top: 80px;
+    padding-top: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    margin: 7px;
+    padding: 10px;
+    border: none;
+}
+
+
+.log_button{
+    height: 45px;
+    width: 164px;
+    background-color: rgb(20, 94, 160);
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+}
+
+.for_password{
+    margin-left: 20px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.sign_up{
+    font-style: normal;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.container2{
+    display: flex;
+    padding-left: 225px;
+    margin-top: 8px;
+}
+
+.heading{
+    color: aliceblue;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+::placeholder{
+    color: rgb(103, 102, 102);
+    font-size: 15px;
+}
+
+img{
+    margin-top: 2px;
+    box-sizing: border-box;
+    width: 60px;
+}
+
+.container3{
+    display: flex;
+    margin-left: 170px;
+}
+
+.main{
+    display: flex;
+}
+
+.container4{
+    color: aliceblue;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 60px;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 150px;
+}
+
+.logo1{
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 120px;
+}
+
+.logo{
+   width: 500px;
+   margin-left: 140px;
+   margin-top: 10px;
+}
+
+.support{
+    color: aliceblue;
+}
+
+.container5{
+    display: flex;
+    padding-left: 30px;
+}
+/* hr{
+    width: 400px;
+    color: black;
+} */

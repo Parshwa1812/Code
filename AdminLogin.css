@@ -1,0 +1,74 @@
+body{
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqI8mETgHvfzfD8G7zoar7q1YuuQiFma_zQw&usqp=CAU); */
+     background-image: url(./20230517164623_[fpdl.in]_condiments-prepare-italian-pasta_1220-429_large.jpg);
+     background-repeat: no-repeat;
+     /* background-size: 1542px 750px; */
+     background-size: cover;
+     font-family: 'Rubik', sans-serif;
+ }
+ 
+ .container{
+     display: inline-flex;
+     height: 50px;
+ }
+ .container3{
+     display: flexbox;
+     flex-wrap: wrap;
+     width: 100%;
+     margin-top: 30px;
+     margin-left: 30px;
+ }
+ 
+ .name_{
+     width: 341px;
+ }
+ 
+ 
+ .website_name{
+     font-size: 35px;
+     margin-top: -25px;
+     color: white;
+     font-family: 'Aclonica', sans-serif;
+ }
+ 
+ .icon{
+     height: 70px;
+ }
+ 
+ hr{
+     border: 2px solid rgb(255, 255, 255);
+     margin-top: -10px;
+ }
+ 
+ .user_logo1{
+     height: 35px;
+     margin-top: 12px;
+     margin-left: 1000px;
+ }
+ 
+ .admin{
+     margin-top: 20px;
+     margin-left: 5px;
+     font-size: 17px;
+     color: white;
+ }
+ 
+ .rest{
+     background-color: rgb(72, 209, 204);
+     height: 150px;
+     width: 150px;
+     border: none;
+     border-radius: 5px;
+     display: inline-block;
+     margin-left: 26px;
+ }
+ 
+ .rest_logo{
+     height: 76px;
+     margin-top: 16px;
+ }
+ 
+ .foot_text{
+     font-size: 18px;
+     color: white;
+ }
