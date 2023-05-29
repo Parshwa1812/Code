@@ -1,0 +1,121 @@
+
+		   * Admin Login *
+
+Data_base
+--------------------------------------------------------------
+1) Menu table
+
+select * from menu;
+content-> 
+
+itemid int
+itemname varchar(30);
+description varchar(100);
+price double;
+category char(10);
+image_url blob;
+
+--------------------------------------------------------------
+2) table_Reservation
+
+Columns->
+
+table_id int(primary);
+capacity int;
+status varchar(30);
+
+--------------------------------------------------------------
+3)Reservation_table
+
+Columns->
+
+reservation_id int;
+user_id int;
+table_id int;
+reservation_date date;
+start_time timestamp;
+end_time timestamp;
+status varchar(30);--->not decided yet.
+---------------------------------------------------------------
+
+4)Employee_data
+
+columns->
+
+emp_id int;
+emp_name varchar(50);
+address varchar(150);
+ph_no varchar(10);
+salary double;
+department varchar(50);
+joining_date timestamp;
+
+---------------------------------------------------------------
+
+5)Inventory
+
+columns->
+
+item_id int;
+item varchar(150);
+qty int;
+total_amount double;
+imported_date date;
+
+----------------------------------------------------------------
+
+6)suplier
+
+colums->
+
+supplier_id int;
+supplier_name varchar(150);
+address varchar(200);
+phone_no varchar(10);
+
+----------------------------------------------------------------
+
+7)Customer
+
+columns->
+
+user_id int;
+usernmae varchar(50);
+password varchar(50);
+gmail varchar(50);
+f_name varchar(30);
+l_name varchar(30);
+address varchar(150);
+ph_no varchar(10);
+
+----------------------------------------------------------------
+
+8)Bill
+
+select orderid,userid,totalamt,orderdate,status from bill;
+
+// on_click of specific order we have to show full bill.(format-> Popup-box in UI/Dropdown).
+
+columns->
+
+orderid int;
+userid int;
+totalamt double;
+orderdate timestamp;
+status varchar(40);
+ordertype varchar(60);
+
+-----------------------------------------------------------------
+
+9)OrderItemTable
+
+columns->
+
+order_item_id int;
+orderid int;
+itemid int;
+qty int;
+
+
+
+
