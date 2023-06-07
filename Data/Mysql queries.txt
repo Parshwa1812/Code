@@ -1,0 +1,21 @@
+Create database restaurant;
+USE restaurant;
+
+create table menu(item_id int auto_increment, itemname varchar(30), description varchar(100), price double, category varchar(20), image blob ,primary key(item_id));
+alter table menu auto_increment=100;
+
+create table reservation_table(table_id int, capacity int, status varchar(20), primary key(table_id));
+
+create table table_reservation(reservation_id int auto_increment, user_id int, table_id int, reservation_date date, start_time timestamp, end_time timestamp, primary key(reservation_id));
+
+create table employee_data(emp_id int, emp_name varchar(20), address varchar(20), ph_no varchar(10), salary double, department varchar(20), joining_date date);
+
+create table inventory(item_id int, item varchar(150), qty int, total_amount double, important_date date);
+
+create table supplier(supplier_id int, supplier_name varchar(30), address varchar(50), ph_no varchar(10));
+
+create table customer(user_id int, username varchar(20), password varchar(20), email varchar(30), f_name varchar(20), l_name varchar(20), address varchar(50), ph_no varchar(10));
+
+create table bill(orderid int, userid int, total_amt double, orderdate timestamp, status varchar(20), ordertype varchar(20));
+
+create table orderItemTable(order_item_id int, orderid int, itemid int, qty int); 	 
