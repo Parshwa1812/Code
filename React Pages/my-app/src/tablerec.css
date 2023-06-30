@@ -1,0 +1,173 @@
+body{
+    
+    background-image: url(./back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 1010px;
+}
+
+
+h1{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 1476px;
+    top: 185px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 279px;
+    top: 429px;
+    font-family: 'Aclonica', sans-serif;
+}
+.container1{
+    background-color: rgba(196,196,215,0.372);
+    width: 519px;
+    height: 600px;
+
+    margin-left: 1285px;
+    margin-top: 150px;
+    margin-bottom: 5px;
+
+    padding-left: 235px;
+    padding-top: 25px;
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.fn{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 1457px;
+    top: 288px;
+    border-radius: 5px;
+}
+
+.ln{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 1704px;
+    top: 288px;
+    border-radius: 5px;
+}
+
+.email{
+
+    height: 40px;
+    width: 445px;
+    position: absolute;
+    left: 1459px;
+    top: 350px;
+    border-radius: 5px;
+
+}
+
+.Phone{
+
+    height: 40px;
+    width: 445px;
+    position: absolute;
+    left: 1459px;
+    top: 417px;
+    border-radius: 5px;
+
+}
+
+.Persons{
+
+    height: 40px;
+    width: 445px;
+    position: absolute;
+    left: 1459px;
+    top: 484px;
+    border-radius: 5px;
+
+}
+
+.Date{
+    height: 40px;
+    width: 130px;
+    position: absolute;
+    left: 1462px;
+    top: 550px;
+
+}
+
+.today{
+    /* color: rgba(29, 29, 178, 0.845); */
+    background-color: rgb(20,94,160);
+    height: 45px;
+    width: 130px;
+    border-radius: 2px;
+    border-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 1628px;
+    top: 550px;
+}
+.today:active{
+    background-color: rgb(110, 197, 49);
+}
+
+.tommorow{
+    background-color: rgb(20,94,160);
+    height: 45px;
+    width: 130px;
+    border-radius: 2px;
+    border-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 1781px;
+    top: 550px;
+}
+.tommorow:active{
+    background-color: rgb(110, 197, 49);
+}
+
+.Session{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 1463px;
+    top: 615px;
+    border-radius: 5px;
+
+}
+
+.Time{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 1707px;
+    top: 615px;
+    border-radius: 5px;
+
+}
+
+.reservebutton{
+    background-color: rgb(20,94,160);
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 1583px;
+    top: 690px;
+    border-radius: 10px;
+    border-color: black;
+
+}
+.reservebutton:active{
+    background-color: rgb(110, 197, 49);
+}
+
+.logo{
+    shape-rendering: crispEdges;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: 264px;
+    top: 110px;
+}
